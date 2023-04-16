@@ -1,0 +1,57 @@
+.navbar {
+    position: sticky;
+}
+
+.nav-item .nav-link {
+    color: #1295D8;
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 30px;
+
+}
+
+.nav-item .nav-link:hover::first-line {
+    color: #00416A;
+
+}
+.nav-item a.active::first-line {
+    color:#00416A;
+}
+
+.nav-link :after {
+    content: "|";
+    position: absolute;
+    top: 22px;
+    margin-left: 15px;
+}
+
+.kleur1 {
+    color: #1295D8;
+}
+
+.kleur2 {
+    color: #00416A;
+}
+
+.p1 {
+    color: #1295D8;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.Overpl1 {
+margin-left: 160px;
+}
+
+.Overpl2 {
+    margin-left: 65px;    
+}
+
+.Overpl3 {
+    margin-right: 100px;
+}
+
+
+.col {
+    margin-left: 187px;;
+}

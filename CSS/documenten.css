@@ -1,0 +1,46 @@
+
+.nav-item .nav-link {
+    color: #1295D8;
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 30px;
+
+}
+
+.nav-item .nav-link:hover::first-line {
+    color: #00416A;
+
+}
+.nav-item a.active::first-line {
+    color:#00416A;
+}
+
+.nav-link :after {
+    content: "|";
+    position: absolute;
+    top: 22px;
+    margin-left: 15px;
+}
+
+.text {
+    color: #00416A;
+}
+
+.Geheim {
+    width: 100px;
+    height: 120px;
+}
+
+body {
+    background-color: #D8E0EB;
+}
+
+.btn {
+    background-color: #00416A;
+    border-color: #00416A;
+    color: white;
+    font-family: bold;
+    width: 200px;
+    margin-left: 550px;
+    border: solid black;
+}

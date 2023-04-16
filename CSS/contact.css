@@ -1,0 +1,43 @@
+.navbar {
+    position: sticky;
+}
+
+.nav-item .nav-link {
+    color: #1295D8;
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 30px;
+
+}
+
+.nav-item .nav-link:hover::first-line {
+    color: #00416A;
+
+}
+.nav-item a.active::first-line {
+    color:#00416A;
+}
+
+.nav-link :after {
+    content: "|";
+    position: absolute;
+    top: 22px;
+    margin-left: 15px;
+}
+
+body {
+    background-color: #D8E0EB !important;
+}
+
+.text {
+    font-size: larger;
+}
+
+.head1 {
+    margin-right: 100px;
+    color:#00416A
+}
+
+.form1 {
+    margin-right: 100px;
+}

@@ -1,0 +1,59 @@
+body {
+    background-color: #D8E0EB;
+}
+
+.navbar {
+    position: sticky;
+    margin-top: 0;
+}
+
+
+.nav-item .nav-link {
+    color: #1295D8;
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 30px;
+
+}
+
+.nav-item .nav-link:hover::first-line {
+    color: #00416A;
+
+}
+.nav-item a.active::first-line {
+    color:#00416A;
+}
+
+.nav-link :after {
+    content: "|";
+    position: absolute;
+    top: 22px;
+    margin-left: 15px;
+}
+
+
+.col1 {
+    margin-right: 750px;
+    margin-top: 10px;
+}
+
+.balk {
+    padding-right: 150px;
+}
+
+.balk2 {
+    padding-right: 150px;
+}
+
+.text {
+    color: #00416A;
+}
+
+.btn {
+    background-color: #00416A;
+    border-color: #00416A;
+    color: white;
+    font-family: bold;
+    width: 100px;
+    margin-left: 222px;
+}
